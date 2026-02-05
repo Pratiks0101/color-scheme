@@ -21,4 +21,4 @@ A sleek, responsive web application that generates professional color palettes u
 4. Click on any color swatch to **copy the HEX code** to your clipboard.
 
 ## 👨‍💻 Author
-**Pratik Sharma** *Lead Full Stack Developer & Co-founder at Rubrics SoftCon*
+**Pratik Sharma** *Full Stack Developer*
