@@ -3,21 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Color Scheme</title>
 </head>
 <body>
-    <input type="color" id="color" >
-    <select name="color-scheme" id="color-scheme">
-        <option value="Monochrome">Monochrome</option>
-        <option value="Monochrome-light">Monochrome-light</option>
-        <option value="Monochrome-dark">Monochrome-dark</option>
-        <option value="Analogic">Analogic</option>
-        <option value="Complement">Complement</option>
-        <option value="Analogic-Complement">Analogic-Complement</option>
-        <option value="Triad">Triad</option>
-    </select>
-    <button id="button" type="button">Get Color Scheme</button>
+    <header>
+        <input type="color" id="color" >
+        <select name="color-scheme" id="color-scheme">
+            <option value="Monochrome">Monochrome</option>
+            <option value="Monochrome-light">Monochrome-light</option>
+            <option value="Monochrome-dark">Monochrome-dark</option>
+            <option value="Analogic">Analogic</option>
+            <option value="Complement">Complement</option>
+            <option value="Analogic-Complement">Analogic-Complement</option>
+            <option value="Triad">Triad</option>
+            <option value="quad">Quad</option>
+        </select>
+        <button id="button" type="button">Get Color Scheme</button>
+    </header>
     <div id="color-container" class="color-container"></div>
     <script src="index.js"></script>
 </body>

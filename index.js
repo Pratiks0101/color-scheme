@@ -39,7 +39,7 @@ function renderColor(colorArray) {
             navigator.clipboard.writeText(hexValue)
 
             const originaltext = hexText.textContent
-            hexText.style.color = `#03DC03`
+            hexText.style.color = `#FFFDFE`
             hexText.textContent = 'COPIED!'
 
             setTimeout (() => {
