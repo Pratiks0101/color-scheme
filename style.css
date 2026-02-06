@@ -50,6 +50,11 @@ button {
     background-color: #374151;
 }
 
+button:hover {
+    background-color: #6B7280;
+    transform: translate(-1px);
+}
+
 .color-container {
     display: flex;
     justify-content: center;
